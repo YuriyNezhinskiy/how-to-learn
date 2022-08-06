@@ -1,8 +1,10 @@
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  
 }
 
 .header {
@@ -49,7 +51,6 @@
   bottom: 0;
   width: 765px;
   height: 608px;
-  z-index: 1;
   max-width: 50%;
   z-index: 2;
 }
