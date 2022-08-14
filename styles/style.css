@@ -160,6 +160,15 @@
   text-align: left;
   display: flex;
 }
+.table__text:last-of-type {
+  width: 250px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0 0 0 0;
+  text-align: left;
+  display: flex;
+}
 
 .feynman {
   background-color: #f2f2f2;
