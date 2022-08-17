@@ -1,0 +1,18 @@
+@import url(./_theme/table__text_theme_dark.css);
+
+.table__text {
+    width: 250px;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0 0 20px 0;
+    text-align: left;
+    display: flex;
+  }
+  
+
+.table__text:last-of-type {
+    margin: 0;
+  }
+  
+  
