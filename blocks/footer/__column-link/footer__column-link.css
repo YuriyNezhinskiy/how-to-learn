@@ -4,6 +4,8 @@
   font-weight: normal;
   margin-bottom: 16px;
   list-style-type: none;
+  color: white;
+  text-decoration: none;
   padding-left: 0;
   transition: opacity .3s ease;
 }
