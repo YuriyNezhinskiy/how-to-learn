@@ -7,13 +7,3 @@
   list-style-type: none;
   padding-left: 0;
 }
-
-.footer__column-links a:link {
-  text-decoration: none;
-  color: #f2f2f2;
-}
-
-.footer__column-links a:visited {
-  text-decoration: none;
-  color: #f2f2f2;
-}

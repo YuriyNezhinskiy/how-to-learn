@@ -5,12 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel=" stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
 
-<body class="page">
+<body class="root">
   <header class="header">
     <img src="./images/logo_place_header.svg" class="logo logo_place_header" alt="Яндекс практикум">
     <h1 class="header__title">Научиться учиться </h1>
@@ -19,7 +18,7 @@
       <a class="header__link" href="#"> Узнать → </a>
     </p>
     <img class="header__main-illustration" src="./images/header-image.png" alt="Опять два">
-    <div class="header__square-pic"> </div>
+    <div class="header__square-pic rotation"> </div>
   </header>
 
   <main class="content">
@@ -44,8 +43,8 @@
       </div>
     </section>
     <section class="techniques">
-      <div class="section-title"> Техники обучения </div>
-      <div class="section-subtitle"> Пять практик от Барбары Оакли</div>
+      <h2 class="section-title"> Техники обучения </h2>
+      <p class="section-subtitle"> Пять практик от Барбары Оакли</p>
       <div class="cards">
         <div class="cards__item">
           <img class="cards__image" src="./images/cards-attention.png" alt="Два вида внимания">
@@ -79,14 +78,10 @@
     </section>
     <section class="video">
       <h2 class="section-title"> Видео нa TED </h2>
-      <div class="section-subtitle"> Для тех, кто любит прокрастинировать</div>
+      <p class="section-subtitle"> Для тех, кто любит прокрастинировать</p>
       <div class="video__iframes">
-        <div class="video__iframe">
-          <iframe width="515" height="315" src="https://www.youtube.com/embed/arj7oStGLkU"  ></iframe>
-        </div>
-        <div class="video__iframe">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/5MgBikgcWnY"></iframe>
-        </div>
+        <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe>
+        <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY"></iframe>
       </div>
     </section>
 
@@ -236,7 +231,7 @@
             Уделяйте внимание количеству и скорости.
           </p>
         </div>
-        <img class="kaufman__triangle" src="./images/kaufman-triangle.svg" alt="Треугольник">
+        <img class="kaufman__triangle rotation" src="./images/kaufman-triangle.svg" alt="Треугольник">
       </div>
     </section>
     <section class="resources">
